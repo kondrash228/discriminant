@@ -1,0 +1,66 @@
+body {
+    font-family: 'Lato', sans-serif;
+    font-family: 'Outfit', sans-serif;
+    color: #3b3b3b;
+}
+
+.container {
+    max-width: 700px;
+    text-align: center;
+    margin: 0 auto;
+}
+
+
+.wiki {
+    font-size: 16px;
+    text-decoration: none;
+}
+
+.container a:hover {
+    font-size: 18px;
+    transition-delay: 5ms;
+}
+
+
+.input-group input {
+    font-size: 15px;
+    padding: 6px 0 4px 10px;
+    border: 1px solid #cecece;
+    background: #F6F6f6;
+    border-radius: 8px;
+}
+
+.btn-submit {
+    margin-top: 20px;
+    height: 30px;
+    border: 1px solid #afafaf;
+    border-radius: 8px;
+    background: #3b3b3b;
+    color: #fff;
+}
+
+.btn-submit:hover {
+    background-position: right center;
+}
+
+.answer {
+    margin-top: 20px;
+}
+
+@media (max-width: 700px) {
+    .container {
+        max-width: 550px;
+        text-align: center;
+        margin: 0 auto;
+    }
+
+}
+
+@media (max-width: 542px) {
+    .container {
+        max-width: 375px;
+        text-align: center;
+        margin: 0 auto;
+    }
+
+}

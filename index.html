@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Калькулятор Дискриминанта</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lato&family=Outfit:wght@300&display=swap" rel="stylesheet">
+    <meta name="viewport" content="width=device-width">
+
+</head>
+<body>
+    <div class="container">
+        <h1>Калькулятор</h1>
+        <h2>Пример: ax² + bx + c = 0</h2>
+        <a class="wiki" href="https://ru.wikipedia.org/wiki/%D0%9A%D0%B2%D0%B0%D0%B4%D1%80%D0%B0%D1%82%D0%BD%D0%BE%D0%B5_%D1%83%D1%80%D0%B0%D0%B2%D0%BD%D0%B5%D0%BD%D0%B8%D0%B5">Читать более подробно про квадратные ураврнения</a>
+
+        <div class="input-group">
+            <div class="left-a">
+                <p>Введите a</p>
+                <input id="a" type="text">
+            </div>
+
+            <div class="center-b">
+                <p>Введите b</p>
+                <input id="b" type="text">
+            </div>
+
+            <div class="right-c">
+                <p>Введите c</p>
+                <input id="c" type="text">
+            </div>
+
+        </div>
+        <input id="btn-submit" class="btn-submit" type="submit" value="Готово">
+        <div class="answer">
+            <div id="first-answer"></div>
+
+        </div>
+    </div>
+
+    <div style="margin-bottom: 150px;"></div>
+    <script src="index.js"></script>
+</body>
+</html>
